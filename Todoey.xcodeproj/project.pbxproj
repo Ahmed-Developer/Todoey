@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3A091D8D22C8754A00F554C1 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A091D8C22C8754A00F554C1 /* Data.swift */; };
+		3A091D8D22C8754A00F554C1 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A091D8C22C8754A00F554C1 /* Item.swift */; };
 		3A73F58122C7364C00246478 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A73F58022C7364C00246478 /* AppDelegate.swift */; };
 		3A73F58322C7364C00246478 /* ToDoListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A73F58222C7364C00246478 /* ToDoListViewController.swift */; };
 		3A73F58622C7364C00246478 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A73F58422C7364C00246478 /* Main.storyboard */; };
@@ -16,7 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		3A091D8C22C8754A00F554C1 /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		3A091D8C22C8754A00F554C1 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		3A73F57D22C7364C00246478 /* Todoey.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Todoey.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A73F58022C7364C00246478 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3A73F58222C7364C00246478 /* ToDoListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoListViewController.swift; sourceTree = "<group>"; };
@@ -40,7 +40,7 @@
 		3A091D8E22C875E000F554C1 /* DataModel */ = {
 			isa = PBXGroup;
 			children = (
-				3A091D8C22C8754A00F554C1 /* Data.swift */,
+				3A091D8C22C8754A00F554C1 /* Item.swift */,
 			);
 			path = DataModel;
 			sourceTree = "<group>";
@@ -171,7 +171,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3A73F58322C7364C00246478 /* ToDoListViewController.swift in Sources */,
-				3A091D8D22C8754A00F554C1 /* Data.swift in Sources */,
+				3A091D8D22C8754A00F554C1 /* Item.swift in Sources */,
 				3A73F58122C7364C00246478 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

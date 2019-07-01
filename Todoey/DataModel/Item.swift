@@ -1,5 +1,5 @@
 //
-//  Data.swift
+//  Item.swift
 //  Todoey
 //
 //  Created by Ahmed Khan on 30/6/19.
@@ -11,7 +11,7 @@
 
 import Foundation
 
-class Data {
+class Item: Codable {
     
     var title: String = ""
     var done: Bool = false
