@@ -13,6 +13,7 @@
 		3A73F58622C7364C00246478 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A73F58422C7364C00246478 /* Main.storyboard */; };
 		3A73F58822C7364D00246478 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A73F58722C7364D00246478 /* Assets.xcassets */; };
 		3A73F58B22C7364D00246478 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A73F58922C7364D00246478 /* LaunchScreen.storyboard */; };
+		3AC3319222CF4694006C56E1 /* SwipeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AC3319122CF4694006C56E1 /* SwipeTableViewController.swift */; };
 		3AFDF7D822CC525C005617C5 /* CategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AFDF7D722CC525C005617C5 /* CategoryViewController.swift */; };
 		3AFE3AE222CD7B69002F7A59 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AFE3AE122CD7B69002F7A59 /* Item.swift */; };
 		3AFE3AE422CD7B99002F7A59 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AFE3AE322CD7B99002F7A59 /* Category.swift */; };
@@ -26,6 +27,7 @@
 		3A73F58722C7364D00246478 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3A73F58A22C7364D00246478 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3A73F58C22C7364D00246478 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3AC3319122CF4694006C56E1 /* SwipeTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeTableViewController.swift; sourceTree = "<group>"; };
 		3AFDF7D722CC525C005617C5 /* CategoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryViewController.swift; sourceTree = "<group>"; };
 		3AFE3AE122CD7B69002F7A59 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		3AFE3AE322CD7B99002F7A59 /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
@@ -69,6 +71,7 @@
 			children = (
 				3AFDF7D722CC525C005617C5 /* CategoryViewController.swift */,
 				3A73F58222C7364C00246478 /* ToDoListViewController.swift */,
+				3AC3319122CF4694006C56E1 /* SwipeTableViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -248,6 +251,7 @@
 				3AFDF7D822CC525C005617C5 /* CategoryViewController.swift in Sources */,
 				3A73F58322C7364C00246478 /* ToDoListViewController.swift in Sources */,
 				3A73F58122C7364C00246478 /* AppDelegate.swift in Sources */,
+				3AC3319222CF4694006C56E1 /* SwipeTableViewController.swift in Sources */,
 				3AFE3AE422CD7B99002F7A59 /* Category.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
